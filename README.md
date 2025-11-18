@@ -45,7 +45,7 @@ void setup() {
 }
 
 void loop() {
-  TempAndUmidade data = dht.getTempAndUmidade();
+  TempAndHumidity data = dht.getTempAndHumidity();
   int luz = analogRead(LDR_PIN);
   int presenca = digitalRead(PIR_PIN);
 
